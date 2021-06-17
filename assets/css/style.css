@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Lateef', cursive;
+}
+
+img{
+	width: 75px;
+	height: 50px;
+	margin-left: 10px;
+	border-radius: 100px;
+}
+
+#nav{
+	color: white;
+	margin-right: 15px;
+}
+
+.navbar{
+	background-color: #5B6478;
+}
+
+#button{
+	background-color: white;
+}
