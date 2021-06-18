@@ -12,17 +12,6 @@
 	border-radius: 100px;
 }
 
-#nav{
-	color: black;
-	margin-right: 15px;
-}
-
-.navbar{
-	background-color: #5B6478;
-	border-bottom: 2px solid white;
-	height: 10vh;
-}
-
 #button{
 	background-color: white;
 }
@@ -31,18 +20,66 @@
 	width: 450px;
 	height: 450px;
 	border-radius: 100%;
+	padding: 96px;
 }
 
-.home{
-	background-color: #5B6478;
-	height: 90vh;
-	margin-top: 10vh;
-}
-
-.home-text{
-	color: black;
+.htext{
+	color: white;
 }
 
 .about{
+	background-color: #FFC63A !important;
 	text-decoration: none;
+	padding: 10px;
+	border-radius: 100px;
 }
+
+.about:hover{
+	background-color: black !important;
+	color: white !important;
+}
+
+.conta{
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 100px;
+}
+
+.background{
+	background-image: url('../images/bgmain.jpg');
+	position: relative;
+	min-width: 100vh;
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0 157px;
+	background-attachment: fixed;
+}
+
+.nav-link{
+	color: white !important;
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.nav-link:hover{
+	background: transparent;
+	color: #FFC63A !important;
+	transition: 0.5s;
+}
+
+.contact{
+	height: 100vh;
+}
+
+.bg{
+	background-color: black;
+	color: white;
+}
+
+footer{
+	color: white;
+	background-color: black;
+}
+
