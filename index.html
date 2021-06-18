@@ -16,16 +16,16 @@
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Lateef&family=Merienda+One&family=Viaoda+Libre&family=Walter+Turncoat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg shadow-sm">
+	<nav class="navbar navbar-expand-lg fixed-top">
   		<div class="container-fluid">
 
     		<a class="navbar-brand" href="#">
-    			<img src="./assets/images/plogo.png" alt="logo">
+    			<img id="image" src="./assets/images/plogo.png" alt="logo">
     		</a>
 
 			<button id="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,21 +51,26 @@
 	</nav>
 	<!-- End of navbar -->
 	<!-- Portfolio Section -->
-	<section class="home">
-		<div class="container-fluid">
+	<section class="home d-flex align-items-center">
+		<div class="container-fluid cont">
 			<div class="row">
-				<div class="col-md-6">
-					<div class="home-img">
-						
-					</div>
-				<div class="col-md-6">
+				<div class="col-lg-6 d-flex justify-content-center align-items-center">
 					<div class="home-text">
-						
+						<h3><strong>Hello! I'm</strong></h3>
+						<h1><strong>Web Developer</strong></h1>
+						<h3>Philip Tanilon</h3>
+						<p><strong>I create website 
+						for business to do better on line.</strong></p>
+						<button class="btn btn-warning btn-rd-100">About me</button>
+					</div>
+				</div>
+					<div class="col-lg-6">
+					<div class="home-img">
+						<img id="img" src="./assets/images/prof.jpg" alt="profile">
 					</div>
 				</div>
 			</div>
 		</div>
-	
 	</section>
 	<!-- Contact Section -->
 	<!-- Footer -->
